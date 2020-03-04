@@ -21,8 +21,9 @@ public class OrderDetails {
 	@Column(name = "PRODUCT_ID")
 	private Integer productId;
 	
-	@Column(name = "ORDER_NUMBER")
-	private String orderNumber;
+	/*
+	 * @Column(name = "ORDER_NUMBER") private String orderNumber;
+	 */
 	
 	@Column(name = "PRICE")
 	private Integer price;
@@ -52,13 +53,12 @@ public class OrderDetails {
 		this.productId = productId;
 	}
 
-	public String getOrderNumber() {
-		return orderNumber;
-	}
-
-	public void setOrderNumber(String orderNumber) {
-		this.orderNumber = orderNumber;
-	}
+	/*
+	 * public String getOrderNumber() { return orderNumber; }
+	 * 
+	 * public void setOrderNumber(String orderNumber) { this.orderNumber =
+	 * orderNumber; }
+	 */
 
 	public Integer getPrice() {
 		return price;

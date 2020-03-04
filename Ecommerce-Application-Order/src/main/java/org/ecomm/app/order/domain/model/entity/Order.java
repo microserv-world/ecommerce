@@ -25,8 +25,9 @@ public class Order {
 	@Column(name = "CUSTOMER_ID")
 	private String customerId;
 	
-	@Column(name = "ORDER_NUMBER")
-	private String orderNumber;
+	/*
+	 * @Column(name = "ORDER_NUMBER") private String orderNumber;
+	 */
 	
 	@Column(name = "PAYMENT_ID")
 	private String paymentId;
@@ -67,14 +68,13 @@ public class Order {
 	}
 
 
-	public String getOrderNumber() {
-		return orderNumber;
-	}
-
-
-	public void setOrderNumber(String orderNumber) {
-		this.orderNumber = orderNumber;
-	}
+	/*
+	 * public String getOrderNumber() { return orderNumber; }
+	 * 
+	 * 
+	 * public void setOrderNumber(String orderNumber) { this.orderNumber =
+	 * orderNumber; }
+	 */
 
 
 	public String getPaymentId() {
